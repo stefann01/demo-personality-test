@@ -1,0 +1,23 @@
+.button {
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: left;
+  text-transform: uppercase;
+  width: 100%;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out,
+    border 0.2s ease-in-out;
+  &:hover {
+    background: #212121;
+    color: #fff;
+    border: 1px solid #212121;
+  }
+  &:focus {
+    outline: 0;
+  }
+}

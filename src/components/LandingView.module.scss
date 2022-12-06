@@ -1,0 +1,28 @@
+.container {
+  background-color: #7154d4;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.startTestButton {
+  background-color: #7154d4;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  &:hover {
+    background-color: #ffffff;
+    color: #7154d4;
+  }
+}
